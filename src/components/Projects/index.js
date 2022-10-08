@@ -1,7 +1,38 @@
 import React from "react";
-import { projects } from "../Projects/projects";
 
 function Projects() {
+
+    const projects = [ 
+        {
+            title: "JAM",
+            subtitle: "HTML, CSS, JavaScript, Api",
+            description:"Group Website built to allow users to find concerts in their area. ",
+            imgUrl: "../JAM.png" ,
+            link:"",
+        },
+        {
+            title: "",
+            subtitle: "",
+            description:"",
+            image: "",
+            link:"",
+        },
+        {
+            title: "",
+            subtitle: "",
+            description:"",
+            image: "",
+            link:"",
+        },
+        {
+            title: "",
+            subtitle: "",
+            description:"",
+            image: "",
+            link:"",
+        }
+    ];
+
     return (
         <section id="projects" className="text-black-400 bg-blue-300 body-font">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
