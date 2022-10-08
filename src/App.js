@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import About from './components/About';
 
 function App() {
   return (
     <div>
+      <main className="text-3xl text-gray-400 font-bold">
+        <About />
+      </main>
 
     </div>
   );
