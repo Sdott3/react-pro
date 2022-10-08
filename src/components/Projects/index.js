@@ -1,40 +1,37 @@
 import React from "react";
-
+import JAM from "../../images/JAM.png";
 
 function Projects() {
 
     const projects = [ 
         {
             title: "JAM",
-            subtitle: "HTML, CSS, JavaScript, Api",
             description:"Group Website built to allow users to find concerts in their area. ",
-            imgUrl: "../JAM.png" ,
-            link:"",
+            link:"https://anushar20201.github.io/JAM/",
         },
         {
-            title: "",
-            subtitle: "",
+            title: "Things Wanted",
             description:"",
             image: "",
-            link:"",
+            link:"https://shielded-mountain-23922.herokuapp.com/",
         },
         {
-            title: "",
-            subtitle: "",
-            description:"",
+            title: "Horiseon",
+            description:"Basic website built with HTML & CSS.",
             image: "",
-            link:"",
+            link:"https://sdott3.github.io/Horiseon/",
         },
         {
-            title: "",
-            subtitle: "",
-            description:"",
+            title: "Wandrlust",
+            description:"RHave you ever had to put together an itinerary to travel to a place you’ve never been before? Do you feel like you need a vacation? This application connects user with other travelers, help create your itinerary, and plan your flight all for free. You can also share your experience to help other travelers.",
             image: "",
-            link:"",
+            link:"https://github.com/wagnergabe/Wandrlust",
         }
     ];
 
     return (
+
+        
         <section id="projects" className="text-black-400 bg-blue-300 body-font">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
